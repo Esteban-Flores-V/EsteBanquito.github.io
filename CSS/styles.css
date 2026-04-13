@@ -43,11 +43,11 @@ nav ul {
 }
 
 .profile-img {
-    width: 500px; /* Tamaño de la foto */
-    height: 500px; /* Tamaño de la foto */
+    width: 250px; /* Tamaño de la foto */
+    height: 250px; /* Tamaño de la foto */
     border-radius: 50%; /* Hace la foto circular */
     object-fit: cover; /* Asegura que la imagen no se estire feo */
-    border: 10px solid white; /* Borde blanco alrededor de la foto */
+    border: 5px solid white; /* Borde blanco alrededor de la foto */
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
