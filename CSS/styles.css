@@ -43,12 +43,12 @@ nav ul {
 }
 
 .profile-img {
-    width: 250px; /* Tamaño de la foto */
-    height: 250px; /* Tamaño de la foto */
+    width: 500px; /* Tamaño de la foto */
+    height: 500px; /* Tamaño de la foto */
     border-radius: 50%; /* Hace la foto circular */
     object-fit: cover; /* Asegura que la imagen no se estire feo */
-    border: 5px solid white; /* Un borde elegante */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3); /* Sombra para dar profundidad */
+    border: 10px solid white; /* Borde blanco alrededor de la foto */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
 .hero-text-container {
@@ -100,4 +100,48 @@ nav ul {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 15px;
+}
+
+.proyectos-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contacto {
+    padding: 60px 10%;
+    text-align: center;
+    background-color: white;
+}
+
+.contacto-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Para que en el celular se pongan uno abajo del otro */
+    margin-top: 30px;
+}
+
+.contacto-item {
+    background: #f1f5f9;
+    padding: 20px;
+    border-radius: 12px;
+    min-width: 200px;
+    transition: background 0.3s;
+}
+
+.contacto-item:hover {
+    background: #e2e8f0;
+}
+
+.contacto-item a {
+    display: block;
+    margin-top: 10px;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contacto-item strong {
+    color: var(--dark);
+    font-size: 1.1rem;
 }
